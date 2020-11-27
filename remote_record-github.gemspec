@@ -4,7 +4,7 @@ require_relative 'lib/remote_record/github/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'remote_record-github'
-  spec.version       = RemoteRecord::Github::VERSION
+  spec.version       = RemoteRecord::GitHub::VERSION
   spec.authors       = ['Simon Fish']
   spec.email         = ['si@mon.fish']
 
