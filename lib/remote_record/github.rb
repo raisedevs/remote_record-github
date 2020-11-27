@@ -5,7 +5,7 @@ require 'remote_record/github/base'
 require 'remote_record/github/user'
 
 module RemoteRecord
-  module Github
+  module GitHub
     class Error < StandardError; end
     # Your code goes here...
   end
