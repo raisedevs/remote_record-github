@@ -7,7 +7,7 @@ module RemoteRecord
       private
 
       def client
-        Octokit::Client.new(access_token: authorization)
+        Octokit::Client.new({ access_token: authorization }.compact)
       end
     end
   end
